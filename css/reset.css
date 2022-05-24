@@ -1,0 +1,26 @@
+
+/* reset margin body */
+*
+{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    line-height: inherit;
+    color:inherit;
+    font: inherit;
+    
+}
+
+/* reset scrolling behavior */
+html
+{
+    scroll-behavior: smooth;
+}
+
+
+/* global */
+/* a 
+{
+    text-decoration: none;
+}*/

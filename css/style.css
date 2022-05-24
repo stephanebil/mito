@@ -1,0 +1,309 @@
+@import "reset.css";
+@import "global.css";
+
+
+
+/* ======================helpers========================== */
+.container
+{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+/* background primaire */
+.bg_primary
+{
+    background-color: #b4cfb0;
+}
+
+/* background secondaire section */
+.bg-section
+{
+    background-color: #f2f8f2;
+}
+
+/* font nunito */
+.font-nunito
+{
+    font-family: 'Nunito', sans-serif; 
+}
+
+/* display flex */
+.d-flex
+{
+    display: flex;
+}
+
+.py-section
+{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.f-reverse
+{
+    flex-direction: row-reverse;
+}
+
+/* centrer le texte */
+.text-center
+{
+    text-align: center;
+}
+
+/* ===================================html=========================== */
+/* html 
+{
+    scroll-behavior: smooth;
+}*/
+
+/* ===========================header =======================*/
+header
+{
+    background-color: #b4cfb0;
+    padding: 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .wrapper-header_nav (autre méthode pour mettre de l'espace entre le menu (accueil contact à propos)
+{
+    display: flex;
+    gap: 20px;
+}*/
+
+.wrapper-header_nav a
+{
+    padding: 0 5px;
+    color: #fff;
+}
+
+/* logo modification */
+.logo
+{
+    font-size: 20px;
+    font-weight: 900;
+    color: red;
+    border: 3px solid #fff;
+    border-radius: 0 10px 0 10px;
+    padding: 5px;
+    box-shadow: 5px 5px 5px black;
+    /* font-family: 'Nunito', sans-serif; */
+}
+
+.to-logo
+{
+    color:#fff;
+}
+/* fin de logo modification */
+
+/* Hero============================ */
+.wrapper-header_hero
+{
+    height: 500px;
+    background-image: url(https://images.unsplash.com/photo-1576398289164-c48dc021b4e1);
+    background-position: center;
+    background-size: cover;
+}
+
+/* main============================ */
+.wrapper-main
+{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.wrapper-main_h2
+{
+    text-align: center;
+    font-size: 45px;
+    /* font-family: 'Nunito', sans-serif; */
+    font-weight: 900;
+}
+
+/*========= welcome section ======*/
+/* .wrapper-main_welcome 
+{
+    padding-top: 60px ;
+    padding-bottom: 60px;
+}*/
+
+.wrapper-main_welcome-block1
+{
+    display:flex;
+    justify-content: center;
+    gap: 20px 70px;
+    margin: 50px 200px;
+    align-items: center;
+}
+
+
+
+/* ============= Find us section======= */
+
+.wrapper-find-us
+{
+    background-color: #e9f6e7;
+    padding: 50px;
+}
+
+.wrapper-find-us_card
+{
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    height: 100px;
+    width: 18%;
+    font-weight: 600;
+    box-shadow: 1px 1px 1px #b4cfb0;
+    margin: 1em;
+    /* padding: 2.5em; */
+    background-color: #fff;
+    font-size: 22px;
+    gap:10px
+}
+
+.fa-solid
+{
+    color: #f00;
+}
+
+.wrapper-find-us_block1
+{
+    margin-top:50px;
+    /* display:flex; */
+    justify-content: center;
+    gap:100px;
+}
+
+.wrapper-find-us_block2
+{
+    margin-top:50px;
+    /* display: flex; */
+    justify-content: center;
+    gap:100px;
+}
+
+
+/* ===================team ========================= */
+
+.wrapper-team
+{
+    margin-top: 50px;
+}
+
+
+.wrapper-team_block
+{
+    /* padding:10%; */
+    justify-content: center; 
+    align-items: center;
+    gap:50px;
+    margin-top: 50px;
+}
+
+.wrapper-team_block1
+{
+    display:block;
+    align-items: center;
+    /* text-align: center; */
+}
+
+.wrapper-team_description
+{
+    width: 500px;
+}
+
+.wrapper-team_nom
+{
+    font-size: 30px;
+}
+
+.team-photo
+{
+    height:200px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px #b4cfb0;
+}
+ /*============team de JUSTINE=================================================  */
+ .wrapper-teams_bloc1
+{
+    align-items: center;
+    margin: 50px 300px;
+    gap:20px 70px;
+}
+
+.wrapper-teams_bloc1-description h3
+{
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.wrapper-teams img
+{
+    height: 300px;
+    width: 200px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 10px rgb(136, 136,136);
+}
+
+/* ==================Nos produits================= */
+.wrapper-products
+{
+    background-color: #e9f6e7;
+    margin-top: 100px;
+    height: 500px;
+    /* padding: 3%; */
+}
+
+.wrapper-products_block 
+{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+
+.wrapper-products_h2 
+{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 900;
+}
+
+.wrapper-products_button
+{
+    /* display: flex; */
+    /* align-items: center;  */
+    /* justify-content: center; */
+    margin-top: 100px;
+    height: 100px;
+    width:600px;
+    font-size: 30px;
+    font-weight: 700;
+    box-shadow: 2px 2px 2px #b4cfb0;
+    border-radius: 10px;
+}
+
+/*============== products de cyril==================================== */
+.wrapper-btn
+{
+    margin-top: 60px;
+    padding: 30px;
+    background-color: #fff;
+    width: 20%;
+    margin: 60px auto;
+}
+
+
+
+/* Footer========================== */
+footer
+{
+    /* background: #b4cfb0; */
+    padding: 30px;
+    color: #fff;
+}
+
+
