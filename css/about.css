@@ -1,0 +1,49 @@
+@import "header.css";
+@import "footer.css";
+@import "style.css";
+@import "reset.css"
+
+.wrapper-header_hero
+{
+    height: 50vh;
+}
+
+/* ========== about=============== */
+/* =====Titres h2==== */
+.wrapper-main_h2
+{
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+/* ==============section formulaire========== */
+.wrapper-about__formulaire-section{
+    /* background-color: blueviolet; */
+}    
+
+    
+
+
+.wrapper-about__formulaire{
+    /* background-color: gray; */
+    width: 25%;
+    padding: 40px;
+    margin: auto;
+}
+
+.formulaire{
+    margin-bottom: 20px;
+}
+
+input{
+    display: block;
+}
+
+textarea{
+    display: block;
+}
+
+.formulaire-submit-barre{
+    margin: auto;
+    padding: 10px;
+}

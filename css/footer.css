@@ -1,0 +1,60 @@
+@import "reset.css";
+
+
+/* ======================helpers========================== */
+.container
+{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+/* background primaire */
+.bg_primary
+{
+    background-color: #b4cfb0;
+}
+
+/* background secondaire section */
+.bg-section
+{
+    background-color: #f2f8f2;
+}
+
+/* font nunito */
+.font-nunito
+{
+    font-family: 'Nunito', sans-serif; 
+}
+
+/* display flex */
+.d-flex
+{
+    display: flex;
+}
+
+.py-section
+{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.f-reverse
+{
+    flex-direction: row-reverse;
+}
+
+/* centrer le texte */
+.text-center
+{
+    text-align: center;
+}
+
+
+
+/* Footer========================== */
+footer
+{
+    /* background: #b4cfb0; */
+    padding: 30px;
+    color: #fff;
+}

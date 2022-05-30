@@ -1,111 +1,7 @@
-@import "reset.css";
-@import "global.css";
+@import "header.css";
+@import "footer.css";
 
 
-
-/* ======================helpers========================== */
-.container
-{
-    padding-left: 100px;
-    padding-right: 100px;
-}
-
-/* background primaire */
-.bg_primary
-{
-    background-color: #b4cfb0;
-}
-
-/* background secondaire section */
-.bg-section
-{
-    background-color: #f2f8f2;
-}
-
-/* font nunito */
-.font-nunito
-{
-    font-family: 'Nunito', sans-serif; 
-}
-
-/* display flex */
-.d-flex
-{
-    display: flex;
-}
-
-.py-section
-{
-    padding-top: 60px;
-    padding-bottom: 60px;
-}
-
-.f-reverse
-{
-    flex-direction: row-reverse;
-}
-
-/* centrer le texte */
-.text-center
-{
-    text-align: center;
-}
-
-/* ===================================html=========================== */
-/* html 
-{
-    scroll-behavior: smooth;
-}*/
-
-/* ===========================header =======================*/
-header
-{
-    background-color: #b4cfb0;
-    padding: 20px;
-    color: white;
-    display: flex;
-    justify-content: space-between;
-}
-
-/* .wrapper-header_nav (autre méthode pour mettre de l'espace entre le menu (accueil contact à propos)
-{
-    display: flex;
-    gap: 20px;
-}*/
-
-.wrapper-header_nav a
-{
-    padding: 0 5px;
-    color: #fff;
-}
-
-/* logo modification */
-.logo
-{
-    font-size: 20px;
-    font-weight: 900;
-    color: red;
-    border: 3px solid #fff;
-    border-radius: 0 10px 0 10px;
-    padding: 5px;
-    box-shadow: 5px 5px 5px black;
-    /* font-family: 'Nunito', sans-serif; */
-}
-
-.to-logo
-{
-    color:#fff;
-}
-/* fin de logo modification */
-
-/* Hero============================ */
-.wrapper-header_hero
-{
-    height: 500px;
-    background-image: url(https://images.unsplash.com/photo-1576398289164-c48dc021b4e1);
-    background-position: center;
-    background-size: cover;
-}
 
 /* main============================ */
 .wrapper-main
@@ -296,14 +192,5 @@ header
     margin: 60px auto;
 }
 
-
-
-/* Footer========================== */
-footer
-{
-    /* background: #b4cfb0; */
-    padding: 30px;
-    color: #fff;
-}
 
 
